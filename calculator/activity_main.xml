@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CFBAF4"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/flat_750x1000_075_f__1_" />
+
+    <TextView
+        android:id="@+id/calculator"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:fontFamily="@font/concert_one"
+        android:text="~Calculator~"
+        android:textAlignment="center"
+        android:textColor="#9E70C6"
+        android:textSize="60sp" />
+
+    <EditText
+        android:id="@+id/firstnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="124dp"
+        android:layout_marginTop="134dp"
+        android:ems="10"
+        android:fontFamily="@font/baloo_bhaijaan"
+        android:hint="First Number"
+        android:inputType="textPersonName"
+        android:text="-First Number:"
+        android:textAlignment="gravity"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/secondnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="135dp"
+        android:layout_marginTop="39mm"
+        android:ems="10"
+        android:fontFamily="@font/baloo_bhaijaan"
+        android:hint="Second Number"
+        android:inputType="textPersonName"
+        android:text="-Second Number:"
+        android:textAlignment="gravity"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/firstnumber"
+        android:layout_marginTop="70mm"
+        android:layout_marginRight="12dp"
+        android:backgroundTint="#AA8BE4"
+        android:fontFamily="@font/concert_one"
+        android:text="Calculate"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_marginTop="85mm"
+        android:fontFamily="@font/concert_one"
+        android:text="~Total~"
+        android:textAlignment="center"
+        android:textColor="#9E70C6"
+        android:textSize="60sp" />
+
+</RelativeLayout>
